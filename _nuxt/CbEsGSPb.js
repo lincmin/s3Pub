@@ -1,0 +1,1 @@
+import{f as s,g as n,bk as o,q as _}from"./CGhswR6u.js";const p=s({__name:"index",async setup(i){let e,t;const a=n();return[e,t]=o(()=>_(a("/settings/profiles"))),await e,t(),()=>{}}});export{p as default};
