@@ -1,95 +1,44 @@
-<!DOCTYPE html>
-<html lang="en" data-capo="">
+<!doctype html>
+<html data-capo="">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style id="nuxt-ui-colors">
-      :root {
-        --color-primary-50: 245 243 255;
-        --color-primary-100: 237 233 254;
-        --color-primary-200: 221 214 254;
-        --color-primary-300: 196 181 253;
-        --color-primary-400: 167 139 250;
-        --color-primary-500: 139 92 246;
-        --color-primary-600: 124 58 237;
-        --color-primary-700: 109 40 217;
-        --color-primary-800: 91 33 182;
-        --color-primary-900: 76 29 149;
-        --color-primary-950: 46 16 101;
-        --color-primary-DEFAULT: var(--color-primary-500);
-
-        --color-gray-50: 249 250 251;
-        --color-gray-100: 243 244 246;
-        --color-gray-200: 229 231 235;
-        --color-gray-300: 209 213 219;
-        --color-gray-400: 156 163 175;
-        --color-gray-500: 107 114 128;
-        --color-gray-600: 75 85 99;
-        --color-gray-700: 55 65 81;
-        --color-gray-800: 31 41 55;
-        --color-gray-900: 17 24 39;
-        --color-gray-950: 3 7 18;
-      }
-
-      .dark {
-        --color-primary-DEFAULT: var(--color-primary-400);
-      }
-    </style>
-    <title>S3 Image Port</title>
-    <style>
-      .my-enter-active,
-      .my-leave-active {
-        transition: opacity 0.3s;
-      }
-      .my-enter-from,
-      .my-leave-to {
-        filter: blur(1rem);
-        opacity: 0;
-      }
-    </style>
-    <link rel="stylesheet" href="/_nuxt/entry.CwzcCEke.css" crossorigin />
     <link
-      rel="preload"
-      as="fetch"
-      crossorigin="anonymous"
-      href="/_payload.json?dd3320b0-e3fc-4b9d-bf7c-74743ff98cb6"
+      rel="stylesheet"
+      href="/s3Pub/static/entry.CwzcCEke.css"
+      crossorigin
     />
     <link
       rel="modulepreload"
       as="script"
       crossorigin
-      href="/_nuxt/CGhswR6u.js"
+      href="/s3Pub/static/vHXYREJ2.js"
     />
-    <link rel="prefetch" as="script" crossorigin href="/_nuxt/BbvYm02z.js" />
-    <link rel="prefetch" as="script" crossorigin href="/_nuxt/C_FOZXKD.js" />
-    <meta
-      name="description"
-      content="A dashboard to manage your images in S3 buckets. Can be used as a image hosting service."
-    />
-    <meta property="og:title" content="S3 Image Port" />
-    <meta
-      property="og:description"
-      content="A dashboard to manage your images in S3 buckets."
-    />
-    <meta property="og:image" content="https://iport.yfi.moe/cover.png" />
-    <meta property="og:url" content="https://iport.yfi.moe" />
-    <meta property="og:site_name" content="S3 Image Port" />
-    <meta name="twitter:title" content="S3 Image Port" />
-    <meta
-      name="twitter:description"
-      content="A dashboard to manage your images in S3 buckets."
-    />
-    <meta name="twitter:image" content="https://iport.yfi.moe/cover.png" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <script type="module" src="/_nuxt/CGhswR6u.js" crossorigin></script>
     <link
-      rel="preload"
-      as="fetch"
-      fetchpriority="low"
-      crossorigin="anonymous"
-      href="/_nuxt/builds/meta/dd3320b0-e3fc-4b9d-bf7c-74743ff98cb6.json"
+      rel="prefetch"
+      as="style"
+      crossorigin
+      href="/s3Pub/static/error-404.DWOoC-Za.css"
     />
+    <link
+      rel="prefetch"
+      as="script"
+      crossorigin
+      href="/s3Pub/static/Czx5qXUZ.js"
+    />
+    <link
+      rel="prefetch"
+      as="style"
+      crossorigin
+      href="/s3Pub/static/error-500.CzkABXE_.css"
+    />
+    <link
+      rel="prefetch"
+      as="script"
+      crossorigin
+      href="/s3Pub/static/ByTg2uR6.js"
+    />
+    <script type="module" src="/s3Pub/static/vHXYREJ2.js" crossorigin></script>
     <script>
       "use strict";
       (() => {
@@ -151,52 +100,15 @@
     </script>
   </head>
   <body>
-    <!--teleport start anchor--><!----><!--teleport anchor-->
-    <div id="__nuxt">
-      <!--[-->
-      <div
-        class="fixed top-0 bottom-0 left-0 right-0 -z-10"
-        style="
-          background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAzMiAzMicgd2lkdGg9JzMyJyBoZWlnaHQ9JzMyJyBmaWxsPSdub25lJyBzdHJva2U9J3JnYigxNSAyMyA0MiAvIDAuMDQpJz48cGF0aCBkPSdNMCAuNUgzMS41VjMyJy8+PC9zdmc+');
-          mask-image: linear-gradient(transparent, black, transparent);
-        "
-      ></div>
-      <span></span
-      ><!--teleport start--><!--teleport end--><!--]-->
-    </div>
+    <div id="__nuxt"></div>
     <div id="teleports"></div>
     <script
       type="application/json"
       data-nuxt-data="nuxt-app"
-      data-ssr="true"
+      data-ssr="false"
       id="__NUXT_DATA__"
-      data-src="/_payload.json?dd3320b0-e3fc-4b9d-bf7c-74743ff98cb6"
     >
-      [
-        {
-          "state": 1,
-          "once": 9,
-          "_errors": 10,
-          "serverRendered": 6,
-          "path": 12,
-          "pinia": 13,
-          "prerenderedAt": 14
-        },
-        ["Reactive", 2],
-        { "$snuxt-i18n-meta": 3, "$scolor-mode": 4, "$snotifications": 8 },
-        {},
-        { "preference": 5, "value": 5, "unknown": 6, "forced": 7 },
-        "system",
-        true,
-        false,
-        [],
-        ["Set"],
-        ["ShallowReactive", 11],
-        {},
-        "/",
-        {},
-        1738933665509
-      ]
+      [{ "prerenderedAt": 1, "serverRendered": 2 }, 1751783972438, false]
     </script>
     <script>
       window.__NUXT__ = {};
@@ -220,7 +132,7 @@
                 language: "en-US",
                 name: "English",
                 files: [
-                  "/home/runner/work/s3-image-port/s3-image-port/i18n/locales/en.json",
+                  "/Users/lincm/Documents/code/s3-image-port/i18n/locales/en.json",
                 ],
               },
               {
@@ -228,7 +140,7 @@
                 language: "zh-CN",
                 name: "简体中文",
                 files: [
-                  "/home/runner/work/s3-image-port/s3-image-port/i18n/locales/zh.json",
+                  "/Users/lincm/Documents/code/s3-image-port/i18n/locales/zh.json",
                 ],
               },
             ],
@@ -255,8 +167,8 @@
         },
         app: {
           baseURL: "/s3Pub/",
-          buildId: "dd3320b0-e3fc-4b9d-bf7c-74743ff98cb6",
-          buildAssetsDir: "/_nuxt/",
+          buildId: "942037be-9ead-4fa0-a5d6-b519ff1ec540",
+          buildAssetsDir: "/static/",
           cdnURL: "",
         },
       };
